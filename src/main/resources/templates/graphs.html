@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <script src="/webjars/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/js/graphs.js"></script>
+    <title>Connected Graphs</title>
+    <link rel="stylesheet"
+          href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <title>Connected Graphs</title>
+</head>
+<body>
+    <div class="container"><br/>
+        <div class="alert alert-info">
+            <a href="#" class="close" data-dismiss="alert"
+               aria-label="close">×</a>
+            <strong>Select "Connect Vertices"</strong> - edges will be randomly added until the graph is connected.<br/>
+            Provide the number of vertices, denoted by N.
+            <hr/>
+            <strong>Select "Run Simulation"</strong> - a pre-defined simulation for N=2 to N=500 will be executed, with <br/>
+            the number of edges it takes to connect the graph (x-axis) plotted against N (y-axis).
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md containerShadow">
+                <div class="form-group">
+                    <label for="numVertices"></label>
+                    <input type="number" min="2" class="form-control" id="numVertices"
+                           aria-describedby="numVertices" placeholder="# Vertices (N)" oninput="validity.valid||(value='');">
+                    <small id="numVerticesHelp" class="form-text text-muted">Numeric values only, N >= 2. Uni-directional (Default)</small>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="biDirectional">
+                    <label class="form-check-label" for="biDirectional">Bi-directional</label>
+                </div>
+                <button class="btn btn-primary" id="connectVerticesBtn">Connect Vertices</button>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm containerShadow">
+                <button class="btn btn-secondary" style="margin-top: 20px;">Run Simulation</button>
+                <br/><br/>
+                <p>The pre-defined simulation will execute for N = 2 through N = 500.<br/>
+                    It will generate an Excel CSV file with two columns - the value of N and the number of vertices <br/>
+                    that it took to connect them. The values will then be plotted in the area below.
+                </p>
+            </div>
+        </div>
+        <hr/>
+        <div class="row" style="border-style: solid; border-width: 1px;">
+            <canvas id="myCanvas"></canvas>
+        </div>
+    </div>
+
+</body>
+
+</html>
