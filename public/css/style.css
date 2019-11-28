@@ -7,29 +7,32 @@ body {
 }
 
 #message {
-  background: #F93800;
+  background: #FFD55A;
   max-width: 360px;
   margin: 100px auto 16px;
   padding: 32px 24px;
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+#message h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #5ab460;
+  margin: 0 0 16px;
+  font-family: "Rye", cursive;
+}
 #message h2 {
-  color: #FFB500;
+  color: #293250;
   font-weight: bold;
   font-size: 16px;
   margin: 0 0 8px;
-}
-#message h1 {
-  font-size: 36px;
-  font-weight: 300;
-  color: #283350;
-  margin: 0 0 16px;
+  font-family: "Raleway", sans-serif;
 }
 #message p {
   line-height: 140%;
   margin: 16px 0 24px;
   font-size: 14px;
+  font-family: "Raleway", sans-serif;
 }
 
 #load {
@@ -51,12 +54,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  body, #message {
-    margin-top: 0;
-    background: white;
-    box-shadow: none;
-  }
-
   body {
     border-top: 16px solid #ffa100;
   }
