@@ -54,8 +54,8 @@ body {
 }
 
 @media (max-width: 600px) {
-  body {
-    border-top: 16px solid #ffa100;
+  #message {
+    margin: 0;
   }
 }
 
