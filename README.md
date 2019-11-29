@@ -6,6 +6,14 @@ https://nodejs.org/en/
 Firebase CLI (fetch via npm):
 https://firebase.google.com/docs/cli#install-cli-windows
     
+## Build the front-end
+From root dir    
+`cd funcitons`    
+`npm install`
+
+This will generate the node_modules and install dependencies (e.g., eslint)
+Ensure you have a `.gitignore` file with node_modules included inside
+
 ## Deploy the front-end
 To deploy the full client-side app:    
 `firebase deploy`   
