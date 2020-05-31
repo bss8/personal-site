@@ -40,13 +40,12 @@
           <h2>Projects: </h2>
           <hr/>
           <div>
-              <a class="link" target="_blank" href="https://borislavsabotinov.com/graphs">SimplyATX Movies</a>
+              <a class="link" target="_blank" href="https://borislavsabotinov.com/graphs">FilmsReel Website</a>
               <br/>
               <a class="link" target="_blank" href="https://borislavsabotinov.com/graphs">Verify Graph Connectivity</a>
           </div>
           </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -63,7 +62,7 @@
         try {
           let app = firebase.app();
           let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+          // document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
         } catch (e) {
           console.error(e);
           document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
