@@ -30,7 +30,7 @@ body {
 }
 #message p {
   line-height: 140%;
-  margin: 16px 0 24px;
+  margin: 16px 0 5px;
   font-size: 14px;
   font-family: "Raleway", sans-serif;
 }
