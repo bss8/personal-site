@@ -69,20 +69,12 @@ body {
 }
 
 #footer {
-  position: absolute;
-
+  text-align: center;
   bottom: 0;
-  width: 100%;
-  height: 60px;
 }
 
 .py-4 {
   padding-top:1.5rem !important;
-  padding-bottom:1.5rem !important
-}
-
-.bg-dark {
-  background-color: #212529 !important;
 }
 
 .flex-shrink-0 {
