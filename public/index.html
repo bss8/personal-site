@@ -51,21 +51,28 @@
                   <a class="link" target="_blank" href="https://filmsreel.com/">
                       FilmsReel Website
                       <div class="subtext">
-                          [ Spring Boot, Firebase Realtime DB, IMDb API ]
+                          [ Spring Boot, Firebase Realtime Db, IMDb API ]
                       </div>
                   </a>
                   <br/>
-                  <a class="link" target="_blank" href="https://library-zfn2dv3geq-uc.a.run.app/">
+                  <a class="link" target="_blank" href="https://ctl.borislavsabotinov.com/">
+                      CTL Verification Website
+                      <div class="subtext">
+                          [ Spring Boot, Kripke Modal Logic, Firestore Db ]
+                      </div>
+                  </a>
+                  <br/>
+                  <a class="link" target="_blank" href="https://github.com/bss8/weather-service">
+                      Weather Service Client-Server
+                      <div class="subtext">
+                          [ Java RMI, Automation, Swing ]
+                      </div>
+                  </a>
+                  <br/>
+                  <a class="link" target="_blank" href="https://library.borislavsabotinov.com/">
                       Library Website
                       <div class="subtext">
                           [ Spring Boot, JQuery DataTables, OO Design ]
-                      </div>
-                  </a>
-                  <br/>
-                  <a class="link" target="_blank" href="https://ctl-checker-pprkprkh4a-uc.a.run.app/">
-                      CTL Verification Website
-                      <div class="subtext">
-                          [ Spring Boot, Kripke Structures, Modal Logic ]
                       </div>
                   </a>
                   <br/>
@@ -87,6 +94,7 @@
           <footer id="footer" class="py-4 flex-shrink-0">
               <div class="container text-center">
                   <a href="https://borislavsabotinov.com/" class="text-white-50">&copy; 2021 Borislav S. Sabotinov</a>
+                  <p id="load"></p>
               </div>
           </footer>
     </div>
@@ -106,7 +114,7 @@
         try {
           let app = firebase.app();
           let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          // document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
         } catch (e) {
           console.error(e);
           document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
