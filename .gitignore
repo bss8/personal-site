@@ -45,3 +45,6 @@ resources/
 # Firebase logs
 firebase-debug.log
 ui-debug.log
+
+functions/
+node_modules/
