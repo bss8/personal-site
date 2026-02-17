@@ -1,5 +1,5 @@
 ---
-title: "Standardization Beats Brilliance"
+title: "Repositories Define, CI Executes"
 date: 2026-02-17
 draft: false
 --- 
@@ -9,7 +9,7 @@ draft: false
 In large Kubernetes environments, velocity is determined by entropy. The slowdowns do not come from "hard problems"
 but from dozens of small inconsistencies that force every engineer to re-orient to the system every time they touch it.
 
-You can have excellent engineers and still move slowly if every
+You can have excellent engineers and still move slowly if every 
 repository invents its own deployment style. You get pipelines that
 behave like runtime systems, manifests that are not real manifests and hide variables, and
 environment behavior that only exists inside CI systems like GitHub. The true state of the system is hidden. 
