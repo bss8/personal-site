@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Borislav S. Sabotinov">
+    <meta name="description" content="Borislav Sabotinov - High Performance Computing, Distributed Systems, Automation.">
+    <title>
+        {{ if .IsHome }}
+            {{ .Site.Title }}
+        {{ else }}
+            {{ .Title }} | {{ .Site.Title }}
+        {{ end }}
+    </title>
+    
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">
+            <h3><em><a href="/">"Relentless execution over clever intent."</a></em></h3>
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/posts/">Blog</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    {{ block "main" . }}{{ end }}
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        © {{ now.Year }} Borislav Sabotinov
+    </div>
+</footer>
+
+<!-- Firebase -->
+<script defer src="/__/firebase/6.6.2/firebase-app.js"></script>
+<script defer src="/__/firebase/6.6.2/firebase-auth.js"></script>
+<script defer src="/__/firebase/6.6.2/firebase-database.js"></script>
+<script defer src="/__/firebase/6.6.2/firebase-messaging.js"></script>
+<script defer src="/__/firebase/6.6.2/firebase-storage.js"></script>
+<script defer src="/__/firebase/init.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        try {
+            let app = firebase.app();
+            console.log("Firebase initialized:", app.name);
+        } catch (e) {
+            console.error("Firebase init error:", e);
+        }
+    });
+</script>
+
+</body>
+</html>

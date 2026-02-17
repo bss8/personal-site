@@ -1,0 +1,251 @@
+:root {
+    --bg: #0f1117;
+    --surface: #161b22;
+    --text: #e6e9f2;
+    --muted: #9aa4bd;
+    --primary: #3a6df0;
+    --accent: #5eead4;
+    --border: #222938;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background-color: var(--bg);
+    background-image:
+            linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    color: var(--text);
+    line-height: 1.65;
+}
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+}
+
+a,
+a:visited {
+    color: #4DA3FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #82C4FF;
+    text-decoration: underline;
+}
+
+.site-header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+nav a {
+    margin-left: 1.5rem;
+    color: var(--muted);
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+.hero {
+    margin-top: 3rem;
+}
+
+.hero h1 {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.hero-photo img {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
+    .hero-photo {
+        order: -1;
+    }
+}
+
+.tagline {
+    color: var(--accent);
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.intro {
+    margin-top: 1.2rem;
+    color: var(--muted);
+    max-width: 700px;
+}
+
+/* CTA row */
+.cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    padding: 0.65rem 1.1rem;
+    border-radius: 4px;
+    text-decoration: none;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1;
+
+    background: var(--primary);
+    color: white;
+    transition: transform 0.15s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn.secondary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+/* Icon normalization */
+.btn svg {
+    width: 16px;
+    height: 16px;
+    display: block;
+    flex: 0 0 16px;
+    transform: translateY(0.5px);
+}
+
+.btn svg.linkedin {
+    width: 14px;
+    height: 14px;
+    transform: translateY(-1px);
+}
+
+/* Projects */
+.projects {
+    margin-top: 4rem;
+}
+
+.projects h2 {
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.project {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.project a {
+    position: relative;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.project a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.25s ease;
+}
+
+.project a:hover::after {
+    width: 100%;
+}
+
+.project a:hover {
+    color: var(--accent);
+}
+
+.project span {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+.post h1 {
+    color: var(--primary);
+}
+
+.post pre {
+    background: var(--surface);
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.post code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+.site-footer {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--muted);
+}

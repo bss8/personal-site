@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "connected-graphs"
-  }
+  },
+  "targets": {
+    "connected-graphs": {
+      "hosting": {
+        "default": [
+          "connected-graphs"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

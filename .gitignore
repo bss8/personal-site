@@ -36,3 +36,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# Firebase logs
+firebase-debug.log
+ui-debug.log
