@@ -39,7 +39,7 @@ You see steps like these:
 And you get a "prepare variables" job whose real purpose is to assemble
 runtime configuration from GitHub environments, secrets, and inputs.
 
-Example (anonymized) bad pattern:
+Example (anonymized) anti-pattern:
 
 ``` yaml
 jobs:
@@ -98,7 +98,7 @@ The other smell is manifest templates that look like YAML but are not
 YAML, because they contain token placeholders that only become real at
 build time.
 
-Example (anonymized) bad pattern:
+Example (anonymized) anti-pattern:
 
 ``` yaml
 apiVersion: networking.k8s.io/v1
