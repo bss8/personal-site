@@ -111,7 +111,7 @@ spec:
     - hosts:
         - {{GTM}}
         - {{LTM}}
-      secretName: inspire
+      secretName: mySecret
   rules:
     - host: {{LTM}}
       http:
