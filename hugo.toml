@@ -2,3 +2,6 @@ baseURL = 'https://borislavsabotinov.com/'
 canonifyURLs = true
 languageCode = 'en-us'
 title = 'Borislav Sabotinov'
+
+[markup.goldmark.renderer]
+unsafe = true
