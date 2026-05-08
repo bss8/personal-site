@@ -4,6 +4,7 @@ date: 2026-05-07
 draft: false
 ---
 
+
 <style>
     blockquote {
         margin: 10px 0;
@@ -16,6 +17,9 @@ draft: false
         page-break-inside: avoid;
     }
 </style>
+
+
+### ![chevron_right](/icons/chevron_right.svg) &nbsp; [Download PDF Version](/files/DevOpsDays-Austin-2026-Observations.pdf)
 
 <img src="/images/devopsdays-austin-2026/1000002395.jpg" alt="Selfie of me (Boris) at DevOpsDays Austin 2026" width="300px"/>
 
