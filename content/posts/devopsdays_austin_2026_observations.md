@@ -8,12 +8,12 @@ draft: false
 <style>
     blockquote {
         margin: 10px 0;
-        padding: 4px 6px;
-        border-left: 12px solid #75adde;
-        background: #b9bcbe;
-        color: #1f2328;
+        padding: 8px 14px;
+        border-left: 3px solid #75adde;
+        background: rgba(117, 173, 222, 0.08);
+        color: inherit;
         font-style: normal;
-        font-weight: 550;
+        font-weight: normal;
         page-break-inside: avoid;
     }
 </style>
