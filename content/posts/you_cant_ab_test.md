@@ -1,6 +1,6 @@
 ---
 title: "You Can't A/B Test a Tool Nobody Asked For"
-date: 2026-05-10
+date: 2026-06-18
 draft: false
 ---
 
