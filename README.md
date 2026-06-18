@@ -5,6 +5,9 @@ Node.js and NPM:
 https://nodejs.org/en/   
 Firebase CLI (fetch via npm):
 https://firebase.google.com/docs/cli#install-cli-windows
+Hugo: 
+https://gohugo.io/
+
     
 ## Build the front-end
 From root dir    
