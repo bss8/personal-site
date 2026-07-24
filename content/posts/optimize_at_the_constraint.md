@@ -2,6 +2,9 @@
 title: "Optimize at the Constraint or Don't Bother"
 date: 2026-07-23
 draft: false
+description: "How to choose what to fix when you can't fix everything, and why optimizing anywhere but the bottleneck is wasted effort."
+images:
+  - /images/ten_station_bottleneck.png
 ---
 
 <style>
@@ -16,6 +19,8 @@ draft: false
         page-break-inside: avoid;
     }
 </style>
+
+<img src="/images/ten_station_bottleneck.png" alt="Ten stations with a bottleneck where work piles up." width="800px"/>
 
 Engineering capacity - the energy and willpower to do work - is finite. You will never have enough people, hours, budget, or even desire to fix everything that is broken, and anyone who tells you otherwise is likely either new or selling something. The only question that matters is where you spend what you have. Not whether the backlog is long (it always is), but which work items on it should truly be prioritized.
 
