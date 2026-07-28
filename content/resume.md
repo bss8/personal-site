@@ -8,112 +8,101 @@ layout: "single"
 
 ## Borislav S. Sabotinov
 
-**Enterprise platform architect driving multimillion dollar efficiency at scale.**
+**Engineering Leader · Platform & HPC · Applied AI**
 
 Austin, TX  
 contact@borislavsabotinov.com  
-[borislavsabotinov.com](https://borislavsabotinov.com) | [github.com/bss8](https://github.com/bss8)
+[borislavsabotinov.com](https://borislavsabotinov.com) | [github.com/bss8](https://github.com/bss8) | [bss8.dev](https://bss8.dev)
+
+---
+
+Staff-level engineering leader who builds platforms, and the teams and standards behind them, that take real cost out of engineering work. Grew an internal HPC platform from a side project to a production system serving 1,500+ engineers across four global regions, returning $12M+ annually in reclaimed time. Lead through influence: the architecture I authored is now the company-standard pattern other IT teams reuse, cutting their delivery time from five months to under three weeks. I measure success by the engineers in front of and behind the platform, the users it serves and the team that maintains it. U.S. Army veteran.
 
 ---
 
 ## Work Experience
 
 ### General Motors
-**Staff Software Engineer (Lead), High-Performance Compute (HPC) Innovation**  
+**Staff Software Engineer (Lead), HPC Innovation**  
 *2019 – Present*
 
-- Delivered **$12M+ in annual cost reductions** by architecting and building an HPC Toolkit on Slack and Microsoft Teams via Azure Bot Service, providing real-time job telemetry and proactive failure detection to 2,000+ CAE engineers.
-- Delivered **$650K+ in annual cost savings** by implementing a Slack-based triage and routing system for HPC support, reducing resolution time and increasing leadership visibility into systemic bottlenecks.
-- Reduced new Teams bot delivery time from **4 months to 2 weeks** by designing a reusable Azure Bot Service architecture enabling standardized enterprise rollout.
-- Removed weeks of infrastructure setup per team by establishing a shared Neo4j evaluation platform and internal Slack community, accelerating graph-based reasoning and AI experimentation.
-- Saved **100+ developer days annually** by automating builds, security scans, and deployments across web, desktop, and CLI applications, including automated Fortify scanning.
-- Improved CI build performance by **70%+** using Kubernetes persistent volume caching for Maven artifacts.
-- Led migration from Jenkins Enterprise to Jenkins OSS for containerized builds, preventing hundreds of failed security scans.
-- Reduced Jenkins job sprawl from **72 jobs to 4 standardized pipelines**, consolidating build logic into version-controlled workflows.
-- Enabled **12+ major production releases annually** in a high-stakes vehicle design environment with distributed system dependencies.
-- Consolidated legacy launchers into a unified modern platform via JavaFX GUI development for EnginFrame NICE.
-- Mentored engineers to deliver a Python-based Sonar API reporting tool, saving 100+ hours annually.
+- **Built and scaled a platform org's flagship product**, the HPC Toolkit, a Slack/Teams-native control plane for high-performance compute, from a personal side project to a production system serving **1,500+ CAE engineers** across four global regions, processing ~4M simulations/year and returning **$12M+ annually** in reclaimed engineering time.
+- **Established the company-wide architectural standard** for conversational platforms: the reusable Azure Bot Service pattern I authored cut new bot delivery from four months to two weeks and is now independently reused by multiple IT teams, organizational leverage well beyond my own team.
+- **Lead the next-generation AI orchestration initiative**, integrating graph-backed reasoning (Neo4j) and a multi-agent orchestration layer over HPC workflows, on a roadmap to **$35M+/year** in value. Set technical direction across teams and ran a four-vendor graph-database evaluation to anchor the decision.
+- **Drove cross-team platform convergence** by publishing a single Kubernetes-to-OpenShift deployment standard (Kustomize base + overlays) and coaching 6+ application teams through migration, replacing brittle one-off pipelines and reducing portfolio-wide tech debt.
+- **Set delivery standards and quality gates** adopted across the portfolio: consolidated 72 Jenkins jobs into 4 version-controlled pipelines, led the Jenkins Enterprise to Jenkins OSS migration for containerized builds, and introduced automated Fortify scanning for C/C++.
+- **Improved platform throughput and reliability**: 70%+ faster CI builds via Kubernetes persistent-volume caching for Maven artifacts; 4x Artifactory capacity by driving the cross-org quota increase that was blocking build and deployment throughput.
+- **Developed engineers and raised the bar around me**: mentored interns and early-career engineers (e.g., shipping a Python Sonar API reporting tool), stood up an internal Slack community for graph/AI experimentation, and treated documentation and reusable patterns as part of shipping.
+- **Owned high-stakes release execution**, enabling 12+ major production releases annually in a vehicle-design software environment with complex distributed dependencies.
 
 ---
 
-### Software Engineer, Computer Aided Engineering (CAE)
+### Software Engineer, Computer-Aided Engineering (CAE)
 *2016 – 2019*
 
-- Prevented hundreds of failed HPC jobs by re-architecting a Java CLI submission system ahead of schedule.
-- Reduced 3K lines of Java code while remediating security vulnerabilities, completing work in one month instead of six.
-- Integrated new functionality into a Classic ASP web application during infrastructure migration, maintaining compliance.
-- Saved 5+ hours runtime per job for Maxwell electric applications by resolving hung jobs through vendor collaboration.
+- **Prevented hundreds of failed HPC jobs** by re-architecting a Java CLI for HPC job submission, delivered ahead of schedule.
+- **Cut 3K lines of Java and remediated security vulnerabilities** in one month against a six-month plan, while extending a Classic ASP/IIS web app during an infrastructure migration without breaking compliance.
+- **Saved 5+ hours of runtime per job** for Maxwell electromagnetic applications and resolved hung jobs by partnering with vendors on integration-code upgrades.
 
 ---
 
-### Software Engineer, Customer Care and Aftersales
-*2015 – 2016*
+### Software Engineer, Customer Care & Aftersales / Manufacturing IT
+*2014 – 2016*
 
-- Reduced organizational costs by **$200K+ annually** by replacing external contractors and building an IBM DataStage ETL framework.
-- Consolidated 12 disparate databases into one during migration from IBM DB2 to Oracle.
+- **Cut $200K+ in annual cost** by replacing external contractors and building an IBM DataStage ETL framework in-house; consolidated 12 disparate databases during a DB2 to Oracle migration.
+- **Led UI development** (AngularJS, Spring MVC) for a workflow app used across 100+ global assembly-plant floors.
 
 ---
 
-### Software Engineer, Manufacturing Engineering IT
-*2014 – 2015*
+## Speaking, Writing & Publications
 
-- Led UI development for an AngularJS and Spring MVC web app used across 100+ global assembly plants.
-- Archived 40K+ files with HP QTP, retiring a manufacturing app without business disruption.
+- **Speaker, Texas Linux Fest 2026** — "From Log Files to Live Signals: Rethinking HPC Operations on Linux Bare Metal."
+- **Speaker, DevOpsDays Austin 2026** — "Value All the Way Down: Applying DevOps Where CI/CD Assumptions Break."
+- **Technical writer**, [bss8.dev](https://bss8.dev) (monthly). Recent essays include "Chat Is Where the Work Is" and "Repositories Define, CI Executes."
 
 ---
 
 ## Education
 
 **Texas State University**  
-Master’s in Computer Science, 3.92 GPA — 2021  
-Certificate in Computer Science, 3.86 GPA — 2019
+Master's in Computer Science, 3.92 GPA — 2021
 
 **Indiana University**  
 Bachelor of Science in Public Affairs, 3.94 GPA, Highest Distinction — 2013
+
+**GM OnRamp — Leader Essentials** (8-week leadership development program) — 2026
 
 ---
 
 ## Certifications
 
-Microsoft Azure Fundamentals  
-Microsoft Azure Developer Associate  
 Microsoft Azure DevOps Engineer Expert  
+Microsoft Azure Developer Associate  
+Microsoft Azure Fundamentals  
 Certified SAFe 5 Practitioner  
-Certified Jenkins Engineer  
-CodePath Intermediate Software Engineering
-
----
-
-## Projects
-
-- Developed an AI for checkers in C++, implementing Minimax and Alpha-Beta Pruning.
-- Led Verilog development in a 5-stage pipelined CPU co-simulation project using Python MyHDL.
-- Built a Lambda expression parser using JavaCC for evaluating lambda calculus expressions.
-- Implemented secure password hashing and salting techniques using PBKDF2.
-- Designed ctl.borislavsabotinov.com for evaluating Computational Tree Logic expressions using Firestore and JavaCC.
+Certified Jenkins Engineer
 
 ---
 
 ## Technical Skills
 
+**Leadership & Practice**  
+Platform engineering, internal developer platforms, technical strategy, cross-team standards, mentorship, Agile/SAFe, DevOps
+
 **Languages**  
-Java, SQL, JavaScript, Bash, C
+Go, Python, Java, SQL, JavaScript, Bash, C/C++
 
-**Platforms**  
-Kubernetes, OpenShift, Azure, Azure Bot Service, Databricks, GitHub Actions, Jenkins, Google Cloud Run
+**Platforms & Infrastructure**  
+Kubernetes, OpenShift, Kustomize, Helm, Docker, Azure, Azure Bot Service, Databricks, GitHub Actions, Jenkins, Terraform, RabbitMQ, event-driven services, CI/CD
 
-**Data**  
-PostgreSQL, Oracle, IBM DB2, Neo4j, Firestore, Firebase Realtime Database
-
-**Architecture & Infrastructure**  
-Spring Boot, Terraform, Helm, Apache Maven, CI/CD, Event-driven services, RAG pipelines
+**Data & AI**  
+Neo4j, PostgreSQL, Oracle, IBM DB2, Firestore, multi-agent orchestration, RAG pipelines
 
 ---
 
 ## Military Service
 
-**31B Military Police, United States Army (Secret Clearance)**  
+**31B Military Police, United States Army** — prior Secret clearance (eligible for reinstatement upon sponsorship)  
 *2008 – 2016*
 
-- Awarded Army Commendation for service in Afghanistan (OEF/OND).
-- Supported counterinsurgency and intelligence operations in a Forward Tactical Operations Center.
+- **Army Commendation Medal** for service in Afghanistan (Operations Enduring Freedom and New Dawn); supported intelligence operations in a Forward Tactical Operations Center.

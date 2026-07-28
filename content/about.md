@@ -12,7 +12,7 @@ I am a Staff Software Engineer building enterprise platforms and distributed sys
 My work focuses on eliminating waste at scale, increasing engineering throughput, and hardening production environments.
 
 Most recently, I designed and built the HPC Toolkit end-to-end: architecture, code, deployment, and adoption.
-It now serves over 1,400 engineers and has delivered ~$12M in annual cost reduction.
+It now serves over 1,500 engineers and has delivered ~$12M in annual cost reduction.
 It was featured in a company-wide article to 160,000 employees.
 
 I operate across application, infrastructure, and platform layers, including Kubernetes, CI/CD systems, 
@@ -38,5 +38,6 @@ The goal is durable systems that scale across teams and produce compounding valu
 
 - Staff Software Engineer, General Motors
 - Master’s in Computer Science (3.92 GPA)
+- Speaker, DevOpsDays Austin & Texas Linux Fest 2026; technical writer at bss8.dev
 - Azure DevOps Engineer Expert
-- U.S. Army Veteran, Operations Enduring Freedom and New Dawn (Afghanistan), recipient of the Army Commendation Medal
+- U.S. Army Veteran, Operations Enduring Freedom and New Dawn Afghanistan, recipient of the Army Commendation Medal
