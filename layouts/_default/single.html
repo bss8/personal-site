@@ -10,4 +10,8 @@
     </div>
 </article>
 
+{{ if eq .Section "posts" }}
+    {{ partial "subscribe.html" . }}
+{{ end }}
+
 {{ end }}

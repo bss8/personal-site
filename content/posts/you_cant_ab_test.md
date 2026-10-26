@@ -2,6 +2,7 @@
 title: "You Can't A/B Test a Tool Nobody Asked For"
 date: 2026-06-18
 draft: false
+description: "Leadership directives are easily carried by gravity downward throughout an org. To get buy-in for your ideas, you need a pump to carry them up." 
 ---
 
 A product team that wants to know whether a feature works has a clean way to find out. Ship it to half the users, withhold it from the other half, wait, then measure the difference between the two groups. The half without the feature is the control group. Whatever gap surfaces between them is the answer.

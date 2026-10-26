@@ -2,6 +2,7 @@
 title: "Repositories Define, CI Executes"
 date: 2026-02-17
 draft: false
+description: "Repositories should capture the full truth about an application, and CI systems should build, test, and deploy without distraction." 
 --- 
 
 ## Entropy is the Constraint to Attack

@@ -2,6 +2,7 @@
 title: "Speaking the Language of Money When Asking for It"
 date: 2026-05-10
 draft: false
+description: "Money has it's own language; you need to be fluent in it to successfully siphon some for your needs from the overall flow of money through your enterprise."  
 ---
 
 <style>

@@ -2,6 +2,7 @@
 title: "DevOpsDays Austin 2026 Observations"
 date: 2026-05-07
 draft: false
+description: "My experiences at DevOps Days Austin 2026 - the changing nature of the industry as AI is integrated and the gaps still left open." 
 ---
 
 

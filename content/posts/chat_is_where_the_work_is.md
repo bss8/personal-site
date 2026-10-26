@@ -2,6 +2,7 @@
 title: "Chat Is Where the Work Is"
 date: 2026-03-24
 draft: false
+description: "Chat interfaces are the new control planes, replacing dashboards and heavy legacy apps in favor of light-weight, conversational workflows where users already meet naturally." 
 ---
 
 ## Work Happens in Chat Workflows
