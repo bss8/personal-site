@@ -4,10 +4,10 @@ date: 2026-10-25
 draft: false
 description: "How to navigate a large enterprise when the org chart does not show who you need to talk to to get things done." 
 images:
-  - /images/the_enterprise_has_no_map.png
+  - /images/enterprise_has_no_map_org_chart_vs_real_paths.png
 ---
 
-# image here
+<img src="/images/enterprise_has_no_map_org_chart_vs_real_paths.png" style="background-color: white;" alt="Org chart vs actual path to delivering work." width="800px"/>
 
 It has an org chart, which tells you nothing about how information and work actually flow through the enterprise. To be effective in a large organization, you need to know the right path to take to achieve a desired objective. If the work is local enough, such as implementing self-contained features for an application with well-defined boundaries, the path is straightforward. You just do the work as an individual contributor and verify it with the customer at the end of the release cycle. But if your work spans multiple products with loose boundaries, requires integrating and orchestrating multiple disparate services (both internal and third-party), and has pieces owned by different teams, then the path is not straightforward.
 
